@@ -1,0 +1,20 @@
+.box{
+    float: left;
+    width: 200px;
+    /*height: 100px;*/
+    margin: 1em;
+}
+
+.after-box{
+    /*clear: left;*/
+    clear: both;
+}
+
+/*assim não precisa de clear*/
+.box2{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+}
+

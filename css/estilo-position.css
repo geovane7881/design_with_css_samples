@@ -1,0 +1,39 @@
+body{
+	margin-bottom: 120px;
+}
+
+.container{
+	position: relative;
+	border: 1px solid red;
+}
+
+nav {
+	
+	position: absolute;
+	left: 0;
+	
+	/*ou simplesmente = float:left; */
+
+	width: 200px;
+	border: 1px solid blue;
+	
+}
+
+section{
+	/* posição padrão static  */
+	margin-left: 200px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid black;
+	padding: 5px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	background-color: #ccc;
+	width: 100%;
+
+}
+
